@@ -41,11 +41,34 @@ figcaption {
   padding: 0 1rem 1rem;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 38em) {
 
-html {
-  font-size: 100%;
-  line-height: 1.3;
+  html {
+    font-size: 110%;
+    line-height: 1.3;
+  }
+
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  figure {
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    border-radius: 10px;
+    width: 20em;
+  }
 
 }
